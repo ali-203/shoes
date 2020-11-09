@@ -1,10 +1,6 @@
 import React from "react"
 import { Router } from "react-router-dom";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 
 
 function RouteConfig() {
@@ -19,4 +15,4 @@ function RouteConfig() {
       
   );
   }
-export default Router;
+export default RouteConfig;
