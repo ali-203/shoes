@@ -1,6 +1,6 @@
 import React from "react";
 import Shoes from "./../Shoes.json";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Product() {
   console.log(Shoes)
   return (
@@ -10,12 +10,12 @@ function Product() {
     {Object.keys(Shoes).map(keyName=>{
       const shoe = Shoes[keyName];
       return (
-        <NavLink key={keyName}
-         className="navlink"
+        <Link key={keyName}
+         className="link"
           to={`/product/${keyName}`}>
         <h4>{shoe.name}</h4>
         <img src={shoe.img} height={150}/>
-      </NavLink>)
+      </Link>)
     })}
       </div>
       </div>
