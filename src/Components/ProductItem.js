@@ -11,6 +11,10 @@ function ProductItem() {
   return (
     <div>
       <h1> Welcome to Product Item </h1>
+      <div className="link">
+        <h4>{shoe.name}</h4>
+        <img src={shoe.img} height={400}/>
+      </div>
     </div>
       
   );
