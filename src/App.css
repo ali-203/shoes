@@ -5,13 +5,13 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
-.productContainer > div {
+.productContainer > navlink {
   text-align: center;
-  width: 350;
+  width: 300px;
   box-shadow: 0 0 10px #463636;
   margin: 10px;
 
-}.productContainer > div:hover {
+}.productContainer > navlink:hover {
   background-color: lightgrey;
 
 }
