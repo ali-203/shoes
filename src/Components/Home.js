@@ -4,7 +4,7 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1> welcome to Home</h1>
+      <h1> Welcome to Home Shoes Store</h1>
     </div>
       
   );

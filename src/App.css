@@ -6,7 +6,6 @@ body{
   flex-wrap: wrap;
 }
 .productContainer > .link {
-  text-align: center;
   width: 300px;
   box-shadow: 0 0 10px #463636;
   margin: 10px;
@@ -14,4 +13,26 @@ body{
 }.productContainer > .link:hover {
   background-color: lightgrey;
 
+}
+.nav {
+background-color:lightblue;
+padding-top: 0px;
+}
+.home{
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 30px;
+}
+.about{
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 30px;
+}
+.product{
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 30px;
 }
